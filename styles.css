@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	font-family: 'Open sans';
 }
-
+/* -------------- Header section ------------------ */
 .header {
 	background: #0b0d17;
 	color: #fbfbfc;
@@ -46,4 +46,17 @@ button {
 	border-radius: 20px;
 	font-weight: 700;
 	font-size: 16px;
+}
+
+.banner {
+	display: flex;
+	height: 600px;
+	background-image: url('/braden-collum-ttbCwN_mWic-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: #fbfbfc;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
