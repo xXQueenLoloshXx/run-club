@@ -8,6 +8,7 @@ body {
 	color: #fbfbfc;
 	width: 100%;
 	display: fixed;
+	display: block;
 	top: 0;
 	display: flex;
 	justify-content: space-between;
@@ -54,6 +55,7 @@ button {
 	background-image: url('/braden-collum-ttbCwN_mWic-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	width: 100%;
 	color: #fbfbfc;
 	justify-content: center;
@@ -63,8 +65,76 @@ button {
 .brContent {
 	background-color: rgba(0, 0, 0, .7);
 	width: 90%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .brContent h3 a {
 	color: #ec2768;
 	text-decoration: none;
+}
+
+.one {
+	background-image: url('https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/tunnel-runners.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.two {
+	background-image: url('https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/meetup-wine.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.three {
+	background-image: url('https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/coffeshop.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.four {
+	background-image: url('https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/runners-grayscale.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.eventContent {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.events1,
+.events2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 45px;
+}
+
+.eve1 {
+	width: 32%;
+	height: 400px;
+}
+.eve2 {
+	width: 64%;
+	height: 400px;
+}
+
+.discribtion {
+	background: rgba(0, 0, 0, .7);
+	color: #fbfbfc;
+	padding: 3px;
+	margin-top: 285px;
+	padding-left: 20px;
+}
+
+.discribtion h4 {
+	font-size: 12px;
+	Color: #b7b8bc;
+	text-decoration: underline #ec2768 3px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.discribtion h3 {
+	color: white;
+	font-size: 24px;
 }
