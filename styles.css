@@ -50,7 +50,7 @@ button {
 
 .banner {
 	display: flex;
-	height: 600px;
+	height: 700px;
 	background-image: url('/braden-collum-ttbCwN_mWic-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -59,4 +59,12 @@ button {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+.brContent {
+	background-color: rgba(0, 0, 0, .7);
+	width: 90%;
+}
+.brContent h3 a {
+	color: #ec2768;
+	text-decoration: none;
 }
