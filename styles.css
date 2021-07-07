@@ -3,13 +3,13 @@ body {
 	font-family: 'Open sans';
 }
 /* -------------- Header section ------------------ */
+
 .header {
 	background: #0b0d17;
 	color: #fbfbfc;
-	width: 100%;
-	display: fixed;
-	display: block;
+	position: fixed;
 	top: 0;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	height: 80px;
@@ -95,7 +95,7 @@ button {
 }
 
 .eventContent {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -130,7 +130,7 @@ button {
 .discribtion h4 {
 	font-size: 12px;
 	Color: #b7b8bc;
-	text-decoration: underline #ec2768 3px;
+	text-decoration: underline #ec2768 2px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
