@@ -171,7 +171,7 @@ button {
 }
 .quots {
 	width: 40%;
-	height: 35%;
+	height: 430px;
 	background: rgba(0, 0, 0, .8);
 	color: #fbfbfc;
 	padding: 30px;
@@ -184,4 +184,6 @@ button {
 	padding-bottom: 20px;
 	padding-top: 20px;
 	font-size: 17px;
+	margin: auto;
+	line-height: 2;
 }
